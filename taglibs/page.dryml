@@ -81,8 +81,8 @@ Make your choice global with:
             attributes[:content_size] = "12" unless attributes[:content_size]
           end
         %>
-        <div class="container bootstrap-content" param="container">
-          <div class="row" param="main-row">
+        <div class="container-fluid bootstrap-content" param="container">
+          <div class="row-fluid" param="main-row">
             <div class="#{aside_span}" if="&all_parameters[:aside] && aside_location=='left'" param="aside-column">
               <div class="well">
                 <section param="aside"/>
